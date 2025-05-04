@@ -1,4 +1,5 @@
 <?php
+
 if ($did==NULL)//decive id is missing
 {
     header('Content-Type: application/json');
