@@ -20,6 +20,7 @@ switch($endPoint)
         $sn=$_REQUEST['sn'];
         include "add_equipment.php";
         add_equipment($did);
+        break;
     case "list_devices":
         $output[]='Status: Success';
         $output[]='MSG: You have reached the list devices endpoint';
